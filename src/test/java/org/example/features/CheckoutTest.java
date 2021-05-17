@@ -1,10 +1,8 @@
-package org.fasttrackit.features;
+package org.example.features;
 
 import net.thucydides.core.annotations.Steps;
-import org.fasttrackit.steps.CheckoutSteps;
-import org.fasttrackit.steps.LoginSteps;
-import org.fasttrackit.utils.BaseTest;
-import org.fasttrackit.utils.Constants;
+import org.example.steps.CheckoutSteps;
+import org.example.utils.BaseTest;
 import org.junit.Test;
 
 public class CheckoutTest extends BaseTest {

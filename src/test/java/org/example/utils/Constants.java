@@ -1,4 +1,4 @@
-package org.fasttrackit.utils;
+package org.example.utils;
 
 public class Constants {
     public static final String USER_EMAIL = "ioana@gmail.com";

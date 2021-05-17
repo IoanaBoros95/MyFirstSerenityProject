@@ -1,10 +1,10 @@
-package org.fasttrackit.steps;
+package org.example.steps;
 
 import net.thucydides.core.annotations.Step;
-import org.fasttrackit.pages.AccountPage;
-import org.fasttrackit.pages.ForgotPage;
-import org.fasttrackit.pages.HomePage;
-import org.fasttrackit.pages.LoginPage;
+import org.example.pages.AccountPage;
+import org.example.pages.ForgotPage;
+import org.example.pages.HomePage;
+import org.example.pages.LoginPage;
 import org.junit.Assert;
 
 public class LoginSteps {

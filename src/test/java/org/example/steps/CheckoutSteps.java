@@ -1,7 +1,7 @@
-package org.fasttrackit.steps;
+package org.example.steps;
 
 import net.thucydides.core.annotations.Step;
-import org.fasttrackit.pages.*;
+import org.example.pages.*;
 import org.junit.Assert;
 
 public class CheckoutSteps {
