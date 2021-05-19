@@ -57,13 +57,6 @@ public class LoginSteps {
     }
 
     @Step
-    public void checkUserForgotPass(String message){
-        forgotPage.verifyForgotMessage(message);
-        Assert.assertTrue(forgotPage.isForgotTextDisplayed(message));
-        Assert.assertEquals(message, forgotPage.getForgotText());
-    }
-
-    @Step
     public void clickForgot(){
         loginPage.clickForgotLink();
     }

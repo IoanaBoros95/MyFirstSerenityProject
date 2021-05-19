@@ -32,11 +32,4 @@ public class LoginTest extends BaseTest {
         loginSteps.navigateToLogin();
         loginSteps.clickLogIn();
     }
-
-    @Test
-    public void forgotPassword(){
-        loginSteps.navigateToLogin();
-        loginSteps.clickForgot();
-        loginSteps.checkUserForgotPass("Please enter your email address below. You will receive a link to reset your password.");
-    }
 }

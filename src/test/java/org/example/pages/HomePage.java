@@ -17,6 +17,15 @@ public class HomePage extends PageObject {
     @FindBy(css = "[title='Checkout']")
     private  WebElementFacade checkoutLink;
 
+    @FindBy(css = "[title='Register']")
+    private  WebElementFacade registerLink;
+
+    @FindBy(id ="search")
+    private WebElementFacade searchField;
+
+    @FindBy(css = ".search-button")
+    private  WebElementFacade searchButton;
+
     public void clickAccountLink(){
         clickOn(accountLink);
     }
@@ -27,6 +36,18 @@ public class HomePage extends PageObject {
 
     public void clickCheckoutLink(){
         clickOn(checkoutLink);
+    }
+
+    public void clickRegisterLink(){
+        clickOn(registerLink);
+    }
+
+    public void setSearchElement(String productName){
+        typeInto(searchField, productName);
+    }
+
+    public void clickSearchButton(){
+        clickOn(searchButton);
     }
 
 }
